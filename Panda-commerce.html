@@ -7,8 +7,11 @@
     <title>Panda Commerce</title>
     <!-- bootstrap stylesheet-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--custoom style-->
+    link
 </head>
 <body>
+  <!--header start-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -28,9 +31,9 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Shoes</a>
-                  <a class="nav-link" href="#">Backpack</a>
-                  <a class="nav-link disabled">Subscribe</a>
+                  <a class="nav-link" href="#shoes">Shoes</a>
+                  <a class="nav-link" href="#backpack">Backpack</a>
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
                 </div>
               </div>
             </div>
@@ -113,7 +116,9 @@
           
 
        </section>
-       <section class="container">
+       <!--shoe section-->
+
+       <section class="container my-5" id="shoes">
          <h2>Shoes</h2>
          <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
           <div class="col">
@@ -156,10 +161,10 @@
         </div>
          
        </section>
-      <!--Back section start-->
+      <!--Backpack section start-->
         
      
-       <section class="container my-5">
+       <section class="container my-5" id="backpack">
         <h2>Backpack</h2>
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
          <div class="col">
@@ -204,16 +209,24 @@
       <!--Bag section end-->
 
       <!--subscribe-->
-      <section class="container ">
-      <h1>LET'S STAY IN TOUCH</h1>
-      <p>Get updates on sals, special and more</p>
-      <input type="text" placeholder="Your Email">
-      <button claass="btn btn-warning">SUBMIT</button>
+      <section style="height:400px;"" id="subscribe"class="container bg-info d-flex justify-content-center align-items-center rounded-3 ">
+       
+       
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get update on sales, specials and more</p>
+          <input type="text" placeholder="Your Email"><br>
+          <button class="btn btn-warning">SUBMIT</button>
+
+      </div>
       </section>
       
     </main>
 
-<footer>
+<footer class="mt-5 text-center">
+  <p><small>&copy;2020.Panda Commerce.All right reseved Sofia,Bulgaria </small>
+
+  </p>
 
 </footer>
 
